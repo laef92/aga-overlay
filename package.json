@@ -1,0 +1,42 @@
+{
+  "name": "aga-overlay",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "",
+  "author": {
+    "name": "Kyle Crowley",
+    "email": "kylewcrowley@nevada.unr.edu",
+    "url": ""
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "~0.8.0",
+    "dashboardPanels": [
+      {
+        "name": "dashboard",
+        "title": "Dashboard",
+        "width": 2,
+        "file": "dashboard.html",
+        "headerColor": "#9f9bbd"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "index.html",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "repository": "laef92/aga-overlay",
+  "license": "Apache-2.0"
+}
